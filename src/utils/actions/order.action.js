@@ -1,0 +1,27 @@
+const ACTIONS = {
+  ORDERNO: "",
+  CUSTOMER: "customer",
+  RESTAURANT: "restaurant",
+  ORDERTYPE: "orderType",
+  EVENT: "event",
+  RESERVATIONTYPE: "reservationType",
+  PAYMENTTYPE: "paymentType",
+  PAYMENTMETHOD: "paymentMethod",
+  PAYMENTSTATUS: "paymentStatus",
+  TABLE: "table",
+  GUESTS: "guests",
+  VISITORS: "visitors",
+  INSTRUCTIONS: "instructions",
+  COUPON: "coupon",
+  DELIVERYTIME: "deliveryTime",
+  ADDTOCART: "addToCart",
+  ADDITEM: "addItem",
+  ADDON: "addon",
+  REMOVEITEMBYONE: "removeItemByOne",
+  REMOVEITEM: "removeItem",
+  PRICE: "price",
+  TIP: "tip",
+  ESTIMATEDTIME: "estimatedTime",
+};
+
+export default ACTIONS;

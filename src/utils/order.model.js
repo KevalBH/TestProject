@@ -1,0 +1,51 @@
+const Orders = {
+  customer: "",
+  restaurant: "",
+  orderType: "",
+  event: "",
+  reservationType: "",
+  paymentType: "",
+  paymentMethod: "",
+  paymentStatus: "",
+  table: [],
+  guests: [],
+  visitors: { adult: 0, children: 0 },
+  instructions: "",
+  coupon: "",
+  deliveryTime: "",
+  items: [],
+  price: [],
+};
+
+const Order = {
+  orderNo: "",
+  customer: "",
+  restaurant: "",
+  orderStatus: "pending",
+  orderType: "",
+  paymentType: "single",
+  paymentMethod: "online",
+  paymentStatus: false,
+  table: [],
+  guests: [],
+  items: [],
+  visitors: {
+    adult: "",
+    children: "",
+  },
+  status: "",
+  instructions: "",
+  coupon: "",
+  deliveryTime: "",
+  estimatedTime: "",
+  price: {
+    addon: 0,
+    points: 0,
+    tip: 0,
+    subtotal: 0,
+    tax: 0,
+    total: 0,
+  },
+};
+
+export default Order;
